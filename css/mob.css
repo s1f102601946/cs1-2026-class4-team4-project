@@ -54,33 +54,21 @@ div.yuukou {
     padding: 0px 10px 10px 10px; 
 }
 
-.page-top-btn {
+html {
+    scroll-behavior: smooth;
+}
+.pagetop-btn {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 70px;
-    height: 70px;
-    z-index: 9999;
+    padding: 15px 20px;
+    background-color: #000000;
+    color: #fff;
     text-decoration: none;
+    border-radius: 50px;
+    font-size: 14px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
-
-/* 写真を丸くして影をつける */
-.page-top-btn img {
-    width: 10%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-/* ボタン上の文字（必要に応じて追加） */
-.page-top-btn span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #000000;
-    font-weight: bold;
-    font-size: 12px;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+.pagetop-btn:hover {
+    background-color: #555;
 }
