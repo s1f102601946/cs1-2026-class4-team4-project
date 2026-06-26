@@ -32,3 +32,24 @@ div#tekitai {
 div#boss {
     background-color: #c0c0c0;
 }
+
+.yoko {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.yoko img {
+    width: 40%;
+    height: auto;
+}
+
+.text {
+    width: 60%;
+}
+
+div.yuukou {
+    background-color: aliceblue;
+    margin: 20px 10px 0px 10px;
+    padding: 0px 10px 10px 10px; 
+}
