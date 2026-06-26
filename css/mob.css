@@ -1,0 +1,15 @@
+#title {
+    text-align: center;
+    text-shadow: 2px 2px 4px #898585;
+}
+.category {
+    font-size: 25px;
+    font-weight: bold;
+}
+.tag {
+    font-size: 18px;
+}
+div{
+    background-color: lightgray;
+    margin-right: 500px;
+}
