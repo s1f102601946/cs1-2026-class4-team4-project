@@ -2,14 +2,33 @@
     text-align: center;
     text-shadow: 2px 2px 4px #898585;
 }
+
 .category {
     font-size: 25px;
     font-weight: bold;
 }
+
 .tag {
     font-size: 18px;
 }
-div{
+
+div#mokuji {
     background-color: lightgray;
     margin-right: 100px;
+}
+
+div#yuukou {
+    background-color: azure;
+}
+
+div#tyuuritu {
+    background-color: #ffffe0;
+}
+
+div#tekitai {
+    background-color: #ffe4e1;
+}
+
+div#boss {
+    background-color: #c0c0c0;
 }
