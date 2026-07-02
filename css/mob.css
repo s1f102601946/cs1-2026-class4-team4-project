@@ -1,4 +1,4 @@
-#title {
+.title {
     text-align: center;
     text-shadow: 2px 2px 4px #898585;
 }
@@ -6,6 +6,7 @@
 .category {
     font-size: 25px;
     font-weight: bold;
+    color: darkblue;
 }
 
 .tag {
@@ -71,4 +72,12 @@ html {
 }
 .pagetop-btn:hover {
     background-color: #555;
+}
+
+details summary {
+    cursor: pointer;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
 }
